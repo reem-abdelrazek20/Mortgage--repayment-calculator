@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+}
+
+:root{    
+--Lime: hsl(61, 70%, 52%);
+--Red: hsl(4, 69%, 50%);
+--White: hsl(0, 0%, 100%);
+--Slate-1 : hsl(202, 86%, 94%);
+--Slate-2 : hsl(203, 41%, 72%);
+--Slate-3 : hsl(200, 26%, 54%);
+--Slate-4 : hsl(200, 24%, 40%);
+--Slate-5 : hsl(202, 55%, 16%);
+}
+body{
+    background-color: var(--Slate-1);
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: var(--Slate-1);
+}
+
+
+section .call .input{
+    padding: 30px;
+    background-color: var(--White);border-radius: 10px;
+}
+section .call form span{
+    background-color: var(--Slate-1);
+}
+section .call form .radio{
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid var(--Slate-4);
+    padding: 10px;
+    margin-top: 10px;
+}
+
+section .call .send {
+    background-color: var(--Lime);
+    border-radius: 20px;
+    border: none;
+   padding: 10px;
+margin-top: 30px;
+width: 50%;
+display: flex;
+ 
+}
+section .call .send input {
+    background-color: transparent;
+    border: none;
+}
+section .call .errorr1 ,.errorr2,.errorr3{
+    color: var(--Red);
+    display: block;
+}
+.inputr{
+    width: 100%;
+}
+
+section  .result{
+    background-color: var(--Slate-5);
+   color: var(--White);
+  
+   padding: 20px;
+ 
+}
+section .result .sone{
+   text-align: center;
+}
+section .result .text p{
+    font-size: 16px;
+    color: var(--Slate-1);  
+    letter-spacing: 2px;
+    margin: 10px;}
+section .result .s2 p { width: 40%;
+    color: var(--Slate-3);}  
+section .result .s2 div{
+    background-color: var(--Slate-5);
+    box-shadow: 0 -4px 0px var(--Lime);
+    border-radius: 7px;
+
+    padding: 25px;
+    margin-top: 30px;
+
+}
+section .result .s2 div #m{
+    font-size: 77px;
+    color: var(--Lime);
+    font-weight: 900;
+    width: 20%;
+}
+#clear{
+    text-decoration: underline;
+    color: blue;
+    background-color: transparent;
+
+    border: none;
+}
